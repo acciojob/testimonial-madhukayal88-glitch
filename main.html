@@ -2,53 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Testimonial Section</title>
+  <title>Testimonials</title>
   <style>
-    .testimonial-section {
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    section.testimonials {
       background-color: #f5f5f5;
-      padding: 40px;
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
-    .testimonial {
-      background-color: white;
-      border: 1px solid #ccc;
-      padding: 20px;
-      margin-bottom: 20px;
+    figure.testimonial {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 25px;
+      margin: 15px 0;
       max-width: 600px;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    .testimonial p {
+    figure.testimonial blockquote {
       margin: 0;
       font-size: 16px;
-      color: #333;
+      color: #444;
     }
 
-    .author {
+    figure.testimonial figcaption {
       text-align: right;
       font-style: italic;
       margin-top: 10px;
-      color: #555;
+      color: #666;
     }
   </style>
 </head>
 <body>
 
-  <div class="testimonial-section">
-    <div class="testimonial">
-      <p>This platform has completely transformed the way I learn. The interactive modules are engaging and effective.</p>
-      <div class="author">— Priya Sharma</div>
-    </div>
+  <section class="testimonials">
+    <figure class="testimonial">
+      <blockquote>
+        This learning platform is intuitive and beautifully designed. I feel more confident every day!
+      </blockquote>
+      <figcaption>— Neha Verma</figcaption>
+    </figure>
 
-    <div class="testimonial">
-      <p>I love how easy it is to track my progress. The quizzes are challenging yet fun!</p>
-      <div class="author">— Arjun Mehta</div>
-    </div>
+    <figure class="testimonial">
+      <blockquote>
+        The lessons are clear and interactive. I love how grammar is taught with real examples.
+      </blockquote>
+      <figcaption>— Rohan Desai</figcaption>
+    </figure>
 
-    <div class="testimonial">
-      <p>The design is clean and intuitive. I always look forward to my next lesson.</p>
-      <div class="author">— Kavya Ramesh</div>
-    </div>
-  </div>
+    <figure class="testimonial">
+      <blockquote>
+        I’ve tried many apps, but this one stands out. It’s fun, effective, and keeps me motivated.
+      </blockquote>
+      <figcaption>— Ananya Iyer</figcaption>
+    </figure>
+  </section>
 
 </body>
 </html>
