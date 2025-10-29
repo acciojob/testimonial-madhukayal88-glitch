@@ -1,70 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Testimonials</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    section.testimonials {
-      background-color: #f5f5f5;
-      padding: 50px 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    figure.testimonial {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      padding: 25px;
-      margin: 15px 0;
-      max-width: 600px;
-      width: 100%;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    figure.testimonial blockquote {
-      margin: 0;
-      font-size: 16px;
-      color: #444;
-    }
-
-    figure.testimonial figcaption {
-      text-align: right;
-      font-style: italic;
-      margin-top: 10px;
-      color: #666;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Testimonial Section Design</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+        .testimonial-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 24px;
+            background-color: #f5f5f5; /* required container bg */
+        }
+        .testimonial {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .testimonial-text {
+            font-size: 1em;
+            color: #333;
+        }
+        .testimonial-author {
+            text-align: right;
+            font-style: italic;
+            color: #555;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
-
-  <section class="testimonials">
-    <figure class="testimonial">
-      <blockquote>
-        This learning platform is intuitive and beautifully designed. I feel more confident every day!
-      </blockquote>
-      <figcaption>— Neha Verma</figcaption>
-    </figure>
-
-    <figure class="testimonial">
-      <blockquote>
-        The lessons are clear and interactive. I love how grammar is taught with real examples.
-      </blockquote>
-      <figcaption>— Rohan Desai</figcaption>
-    </figure>
-
-    <figure class="testimonial">
-      <blockquote>
-        I’ve tried many apps, but this one stands out. It’s fun, effective, and keeps me motivated.
-      </blockquote>
-      <figcaption>— Ananya Iyer</figcaption>
-    </figure>
-  </section>
-
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <div class="testimonial-text">
+                "This platform has completely transformed my career prospects!"
+            </div>
+            <div class="testimonial-author">
+                – Jane Doe
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-text">
+                "The learning experience is immersive and provides amazing opportunities."
+            </div>
+            <div class="testimonial-author">
+                – John Smith
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-text">
+                "Accio Jobs offers exceptional resources for job seekers and professionals."
+            </div>
+            <div class="testimonial-author">
+                – Emily Johnson
+            </div>
+        </div>
+    </div>
 </body>
 </html>
